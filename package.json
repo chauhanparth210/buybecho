@@ -12,13 +12,17 @@
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4.2.0",
     "parcel-bundler": "^1.12.4",
-    "prettier": "^2.2.0"
+    "prettier": "^2.2.0",
+    "concurrently": "^5.2.0"
   },
   "scripts": {
     "format": "prettier \"src/**/*.{js,html,css}\" --write",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html --out-dir build"
+    "build": "parcel build src/index.html --out-dir build",
+    "server-install": "cd server && yarn",
+    "server": "cd server && node server.js",
+    "develop": "concurrently \"yarn server\" \"yarn dev\""
   },
   "dependencies": {
     "@chakra-ui/react": "^1.0.1",

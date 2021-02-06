@@ -1,0 +1,68 @@
+{
+  "items": [
+    {
+      "itemname": "Agatha Christie Books",
+      "description": "There are all lovely books.",
+      "category": "book",
+      "condition": "good",
+      "type": "sell",
+      "picture": "https://firebasestorage.googleapis.com/v0/b/buybacho.appspot.com/o/images%2Fproduct.jpg?alt=media&token=47a4c519-b73a-424c-8729-12fe2f9e2492",
+      "amount": "450",
+      "interested": "3",
+      "id": 1
+    },
+    {
+      "itemname": "Mattress",
+      "description": "If you want then contact me.",
+      "category": "mattress",
+      "condition": "good",
+      "type": "donate",
+      "interested": "10",
+      "picture": "https://firebasestorage.googleapis.com/v0/b/buybacho.appspot.com/o/images%2Fmattress.jpg?alt=media&token=1a96f6c8-1a3e-48dd-824c-c361faa20752",
+      "id": 2
+    },
+    {
+      "itemname": "Cooler",
+      "description": "Cooler is on working condition",
+      "category": "cooler",
+      "condition": "excellent",
+      "type": "sell",
+      "picture": "https://firebasestorage.googleapis.com/v0/b/buybacho.appspot.com/o/images%2Fcooler.jpg?alt=media&token=09dd2ba9-6d22-46b7-a0df-7983a953f8cb",
+      "amount": "600",
+      "interested": "7",
+      "id": 3
+    },
+    {
+      "itemname": "Cooler",
+      "description": "It is working and if you want to buy contact me.",
+      "category": "cooler",
+      "condition": "poor",
+      "type": "donate",
+      "picture": "https://firebasestorage.googleapis.com/v0/b/buybacho.appspot.com/o/images%2Fcooler2.jpg?alt=media&token=cd4a7653-b1c8-42c9-8428-fe00ad3a841d",
+      "interested": 2,
+      "id": 4
+    },
+    {
+      "itemname": "The Design of Everyday Things ",
+      "description": "Book by Don Norman",
+      "category": "book",
+      "condition": "excellent",
+      "type": "sell",
+      "picture": "https://firebasestorage.googleapis.com/v0/b/buybacho.appspot.com/o/images%2Fbooks_don_norman.jpg?alt=media&token=d1050d17-fd4b-446a-bad4-f27e069f37eb",
+      "amount": "60",
+      "interested": 5,
+      "id": 5
+    },
+    {
+      "itemname": "Sony's headphones",
+      "description": "It is working and under warranty. if you want to buy contact me.",
+      "category": "electornicitem",
+      "condition": "excellent",
+      "type": "sell",
+      "picture": "https://firebasestorage.googleapis.com/v0/b/buybacho.appspot.com/o/images%2Fheadphone.jpg?alt=media&token=0d40db46-83ec-44b7-a3c5-cc28b8377982",
+      "amount": "800",
+      "interested": 2,
+      "id": 6
+    }
+  ]
+}
